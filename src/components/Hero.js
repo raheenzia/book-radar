@@ -14,7 +14,7 @@ function Hero() {
     return (
         <div 
             className="bg-[#edcdba] w-full bg-cover bg-center"
-            style={{ backgroundImage: `url('/imggg.jpg')` }}
+            style={{ backgroundImage: `url('/hero.jpg')` }}
         >
             <div className="absolute inset-0 bg-black/40 h-[375px]"></div>
             <nav className="relative px-8 py-5 z-50">
