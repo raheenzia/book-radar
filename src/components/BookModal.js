@@ -55,10 +55,10 @@ export default function BookModal({ book, onClose }) {
           />
 
           <div className="flex flex-col items-center md:items-start text-[#4f3525]">
-            <h2 className="text-2xl font-semibold mb-1 text-[#511400] mr-1">{info.title}</h2>
-            <p className="text-lg mb-2 text-[#412b1e] italic">{info.authors?.join(", ") || "Unknown"}</p>
-            <p className="text-sm mb-1"><strong>Publisher:</strong> {info.publisher || "N/A"}</p>
-            <p className="text-sm mb-3"><strong>Published:</strong> {info.publishedDate || "N/A"}</p>
+            <h2 className="text-xl md:text-2xl font-semibold mb-1 text-[#511400] mr-1 text-center md:text-left">{info.title}</h2>
+            <p className="text-base md:text-lg mb-2 text-[#412b1e] italic text-center md:text-left">{info.authors?.join(", ") || "Unknown"}</p>
+            <p className="text-xs md:text-sm mb-1"><strong>Publisher:</strong> {info.publisher || "N/A"}</p>
+            <p className="text-xs md:text-sm mb-3"><strong>Published:</strong> {info.publishedDate || "N/A"}</p>
 
             <div className="mb-3">
               <div className="flex flex-wrap gap-2">
