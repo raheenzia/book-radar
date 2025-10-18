@@ -1,12 +1,12 @@
 # Book Radar
 
-Book Radar is a React web app that helps you discover, explore, and track books effortlessly — your next great read is just a search away.
+Book Radar is a React web app that helps you discover, explore, and track books effortlessly - your next great read is just a search away.
 
 ## Features
 - Browse and search for books
 - Clean and responsive UI
 - Track your favorite reads
-- Add books to **Favorites**, **Currently Reading**, or **Want to Read** lists
+- Add books to **Favorites**, **Currently Reading**, or **Mark as Read** lists
 - Uses **LocalStorage** to save your book lists locally
 
 ## Setup
