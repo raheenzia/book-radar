@@ -10,7 +10,7 @@ Book Radar is a React web app that helps you discover, explore, and track books 
 - Uses **LocalStorage** to save your book lists locally
 
 ## Live Demo
-Experience the app live: [book-radar.vercel.app](https://book-radar.vercel.app)
+Experience the app live: [bookradar.vercel.app](https://bookradar.vercel.app)
 
 ## Setup
 1. Clone the repo: `git clone https://github.com/raheenzia/book-radar.git`
