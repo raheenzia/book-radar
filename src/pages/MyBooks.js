@@ -27,7 +27,8 @@ function MyBooks() {
     return (
         <div className="flex flex-col min-h-screen">
         <Navbar/>
-        <div className="px-8 flex-grow">
+        <div className="flex-grow">
+        <div className="px-8">
         <div className="max-w-6xl mx-auto">
             <h1 className="text-2xl sm:text-3xl font-medium text-[#692c00] mt-9">My Books</h1>
             <p className="text-xs sm:text-sm text-[#692c00]/70 mt-0.5">
@@ -84,6 +85,8 @@ function MyBooks() {
                     </span>
                 </button>
             </div>
+        </div>
+        </div>
 
             {activeTab === "favorites" && (
                 myBooks.fav.length === 0 ? (
@@ -124,7 +127,6 @@ function MyBooks() {
                 )
             )}
 
-        </div>
         </div>
         <Footer/>
         </div>
